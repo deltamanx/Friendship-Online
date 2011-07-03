@@ -3,5 +3,29 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.14-bin.jar"/>
+	<classpathentry kind="lib" path="lib/hiero.jar"/>
+	<classpathentry kind="lib" path="lib/ibxm.jar"/>
+	<classpathentry kind="lib" path="lib/jinput.jar"/>
+	<classpathentry kind="lib" path="lib/jnlp.jar"/>
+	<classpathentry kind="lib" path="lib/jogg-0.0.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Friendship Online/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jorbis-0.0.15.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Friendship Online/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Friendship Online/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/slick.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://slick.cokeandcode.com/javadoc/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

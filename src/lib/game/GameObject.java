@@ -1,11 +1,14 @@
 package lib.game;
 
+import org.newdawn.slick.Image;
+
 public abstract class GameObject
 {
 	private String name;
 	private float x;
 	private float y;
 	private float scale;
+	private Image img;
 	private boolean visible;
 	
 	public GameObject(String name, float x, float y, float scale, boolean vis)
@@ -71,6 +74,14 @@ public abstract class GameObject
 	{
 		setX(x);
 		setY(y);
+	}
+	
+	public void setImage (Image i){
+		img = i;
+	}
+	
+	public Image getImage (){
+		return img;
 	}
 	
 	public int hashCode()
